@@ -59,7 +59,7 @@ Date:           19/04/2021
 Version:        0.1
 Author:         Filipe soares
 Github repo:    https://github.com/MyTech78/sysinfo_html_shell
-Description:    First draft, creating a shell script to 
+Description: 	The first draft, creating a shell script to 
                 generate a system information HTML report  
 
 ------------------------------------------------------------------
@@ -93,7 +93,7 @@ Openfile()
 }
 
 
-# Gather system information for report
+# Gather system information for the report
 system_info()
 {
     echo "<h3>System release info</h3>"
@@ -198,7 +198,7 @@ createfile()
         echo "file created in $FILE_PATH"
     else
         echo "oh no! it looks like you do not have access to this directory"
-        echo "but don't worry, just try sudo sh sysinfo_html instaed"
+        echo "but don't worry, just try sudo sh sysinfo_html instead"
         echo "alternatively just try a different [PATH]"
     fi
 }
