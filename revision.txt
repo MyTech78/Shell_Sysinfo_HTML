@@ -4,7 +4,7 @@ Date:           19/04/2021
 Version:        0.1
 Author:         Filipe soares
 Github repo:    https://github.com/MyTech78/sysinfo_html_shell
-Description:    First draft, creating a shell script to 
+Description: 	  The first draft, creating a shell script to 
                 generate a system information HTML report  
 
 ------------------------------------------------------------------
